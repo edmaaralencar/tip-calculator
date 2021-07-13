@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <section class="calculator">
+
+
+        <div class="calculator-inputs">
+
+            <form action="">
+
+                <div class="calculator-inputs--element">
+                    <label class="input-label" for="">Conta</label>
+                    <div class="box">
+                        <img src="./assets/imgs/icon-dollar.svg" alt="">
+                        <input class="bill" type="number">
+                    </div>
+                </div>
+    
+                <div class="calculator-inputs--element">
+                    <label class="input-label" for="">% da gorjeta</label>
+                    <div class="box">
+                        <img src="./assets/imgs/icon-dollar.svg" alt="">
+                        <input class="tip" type="number">
+                    </div>
+                </div>
+            
+                <!-- <div class="calculator-inputs--tips">
+                    <div class="calculator-inputs--tips__title">Select Tip %</div>
+                    <div class="calculator-inputs--tips__box">
+                        <button id="oi" value="5" class="item">5%</button>
+                        <button value="10" class="item">10%</button>
+                        <button value="15" class="item">15%</button>
+                        <button value="25" class="item">25%</button>
+                        <button value="50" class="item">50%</button>
+                        <button value="100" class="item">Custom</button>
+                    </div>
+                </div> -->
+    
+                <div class="calculator-inputs--element">
+                    <label class="input-label" for="">Quantidade de pessoas</label>
+                    <div class="box">
+                        <img src="./assets/imgs/icon-person.svg" alt="">
+                        <input class="people" type="number">
+                    </div>
+                </div>
+    
+                <button class="calculate-btn">Calcular</button>
+            </form>
+
+        </div>
+
+
+        <div class="calculator-result">
+            <div class="box2">
+                <div class="calculator-result--box">
+    
+                    <div class="calculator-result--desc">
+                        Qtd de gorjeta <br>
+                        <span>/ pessoa</span>
+                    </div>
+                    <div class="calculator-result--value__people">
+                        $0.00
+                    </div>
+    
+                </div>
+                <div class="calculator-result--box">
+    
+                    <div class="calculator-result--desc">
+                        Total <br>
+                        <span>/ pessoa</span>
+                    </div>
+                    <div class="calculator-result--value__total">
+                        $0.00
+                    </div>
+    
+                </div>
+
+            </div>
+            <button class="reset-btn">Resetar</button>
+
+        </div>
+
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
